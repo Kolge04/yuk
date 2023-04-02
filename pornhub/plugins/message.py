@@ -180,5 +180,5 @@ async def ping(c: Client, u: Message):
     sent = await u.reply_text("<b>pinging...</b>")
     second = datetime.now(3)
     await sent.edit_text(
-       f"🏓 <b>PONG !</b>\n⏱ <code>{(second - first).microseconds / 1000}</code> ms"
+       f"🏓 <b>hihiiii !</b>\n⏱ <code>{(second - first).microseconds / 1000}</code> ms"
     )
