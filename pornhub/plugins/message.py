@@ -178,7 +178,7 @@ async def command_list(_, update: Message):
 async def ping(c: Client, u: Message):
     first = datetime.now()
     sent = await u.reply_text("<b>pinging...</b>")
-    second = datetime.now()
+    second = datetime.now(3)
     await sent.edit_text(
        f"🏓 <b>PONG !</b>\n⏱ <code>{(second - first).microseconds / 1000}</code> ms"
     )
